@@ -1,0 +1,156 @@
+
+
+
+
+.sub{
+    background-color: rgb(188, 17, 17);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 105px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 1s;
+    vertical-align: top ;
+}
+
+.sub:hover {
+    opacity: 0.8 ;
+}
+
+.sub:active{
+    color:black ;
+}
+.join-btn{
+    border-color: rgb(41, 118, 211);
+    background-color: white;
+    border-style: solid;
+    color: rgb(41, 118, 211);
+    border-radius: 3px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top ;
+    margin-left: 8px; 
+    cursor: pointer;
+    transition: background-color 0.5s,
+    color 0.5s;
+
+   
+}
+
+.join-btn:hover {
+    background-color :rgb(41, 118, 211);
+    box-shadow: 1px 5px 10px rgba(0, 0, 4, 0.6);
+    color: white;  
+
+}
+.join-btn:active{
+    margin-top: 5px;
+    margin-left: 10px;
+    box-shadow: none;
+}
+
+
+
+.tweet-btn{
+    background-color: rgb(2, 158, 255);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    vertical-align: top ;
+    
+}
+.tweet-btn:hover{
+    box-shadow: 1px 5px 10px rgba(0, 0, 4, 0.6);
+}
+
+
+
+
+.sign-btn{
+    background-color: rgb(46,164,79);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 78px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight:bolder ;
+    margin-left: 8px;
+    cursor: pointer;
+    vertical-align: top ;
+
+}
+
+
+.addcart{
+    background-color: rgba(246, 204, 18, 0.713);
+    width: 105px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 12px;
+    transition: background-color 0.3s ;
+
+}
+.addcart:hover{
+    background-color: rgba(246, 204, 18, 0.929);
+}
+.addcart:active{
+    opacity: 0.8;
+}
+
+
+
+.buy{
+    background-color: rgb(255, 170, 32);
+    width: 105px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s ;
+    vertical-align: top ;
+
+}
+.buy:hover{
+    background-color: rgb(255, 158, 1);
+}
+.buy:active{
+    opacity: 0.8;
+}
+
+
+
+
+
+.strech{
+    background-color: rgb(46,164,79);
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight:bolder ;
+    margin-left: 8px;
+    cursor: pointer;
+    vertical-align: top ;
+    transition: padding 0.3s;
+    
+
+}
+
+.strech:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
